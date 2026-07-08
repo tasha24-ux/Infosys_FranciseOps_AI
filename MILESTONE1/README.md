@@ -1,11 +1,11 @@
 Infosys Springboard Internship 7.0 – Milestone 1
 Secure User Authentication & Intelligent Analytics Portal
-📋 Project Overview
+ Project Overview-
 Milestone 1 focuses on designing and deploying a secure, production-ready User Authentication Module integrated with a high-fidelity data visualization dashboard. Built as a Single-Page Application (SPA) using Streamlit, this architecture incorporates industry-standard security protocols, stateless session tracking, server-side validation rules, and an asynchronous multi-route identity recovery system.
 
 The application runs seamlessly in a cloud environment (Google Colab), securely utilizing hidden environment secrets and exposing the local instance to a public URL for evaluation.
 
-🚀 Core Features Built
+ Core Features Built-
 Secure Registration (Signup Page)
 
 Collects unique username, email, password, and security question mappings.
@@ -27,14 +27,14 @@ Admin Console (infosys@ai): Bypasses standard telemetry data to grant privileged
 Stateless Session Guarding
 
 Implements JSON Web Tokens (JWT) to safely preserve state across client requests without overloading storage variables or dropping verification records upon browser reloads.
-💻 Tech Stack Used
+ Tech Stack Used-
 Frontend Interface: Streamlit (Configured with a custom neutral corporate theme focusing on Slate and Blue palettes).
 Database Engine: SQLite3 (Relational persistent storage architecture).
 Cryptographic Security: bcrypt (Salted cryptographic password hashing) & PyJWT (HS256 Session Signing).
 Communication Infrastructure: Python smtplib & email.mime (Gmail SMTP Relay Network).
 Data Visualization: Plotly Graph Objects (Dynamic metric interfaces).
 Environment Isolation: Google Colab Secrets Engine (google.colab.userdata).
-⚙️ How to Setup and Run the Notebook
+ How to Setup and Run the Notebook-
 To execute the code and launch the web server successfully, follow these deployment guidelines:
 
 Phase 1: Configure Environment Secrets
@@ -50,7 +50,7 @@ Run the initial configuration cells to install the mandatory external dependency
 Execute the %%writefile app.py cell block to compile the frontend interface logic, database initializations, and layout definitions into a local script.
 Run the background terminal activation block (streamlit run app.py &) alongside your network tunnel configurations (such as ngrok or alternative secure tunneling tools) to generate a public proxy domain url.
 Click on the generated public link to enter and test the portal environment.
-📸 Screenshots
+Screenshots-
 The visual proof of operational execution across all core terminal views is captured and documented below:
 
 Login Viewport
